@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         foregroundColor: Colors.green,
         title: const Text(
-          "리디 웹툰",
+          "RIDI",
           style: TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.w500,
