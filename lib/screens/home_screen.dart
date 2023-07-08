@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         foregroundColor: Colors.green,
         title: const Text(
-          "Riding",
+          "Reading books from the webtoon",
           style: TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.w500,
