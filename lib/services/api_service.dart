@@ -15,6 +15,7 @@ class APiService {
     final response = await http.get(url);
     if (response.statusCode == 200) {
       final List<dynamic> webtoons = jsonDecode(response.body);
+      print(webtoons);
       for (var webtoon in webtoons) {
         final instance = WebtoonModel.fromJson(webtoon);
         webtoonInstances.add(instance);
