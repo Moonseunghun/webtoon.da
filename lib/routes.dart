@@ -9,6 +9,6 @@ class Routes {
   static const String exit = '/exit';
 
   static final routes = <String, WidgetBuilder>{
-    const Login(): (BuildContext context) => login(),
+    const Login(): (BuildContext context) => ogin(),
   };
 }
