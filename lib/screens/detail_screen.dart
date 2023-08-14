@@ -37,7 +37,7 @@ class _DetailScreenState extends State<DetailScreen> {
     initPrefs();
   }
 
-  LikeToons: [1, 2, 3, 4, 5]
+  // LikeToons: [1, 2, 3, 4, 5]
 
   @override
   Widget build(BuildContext context) {
